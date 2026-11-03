@@ -1,0 +1,152 @@
+@let s = state();
+<section class="page container">
+  <header class="page-head">
+    <h1>{{ category()?.name ?? 'Catalogue' }}</h1>
+    <p class="page-lead">
+      {{ category()?.description ?? 'Robes en pagne, chaussures, sacs et accessoires de seconde main, partout au Cameroun.' }}
+    </p>
+  </header>
+
+  <div class="catalog-layout">
+    <aside class="filters" aria-label="Filtres">
+      <button
+        type="button"
+        class="btn btn-secondary filters-toggle"
+        aria-controls="filters-panel"
+        [attr.aria-expanded]="filtersOpen()"
+        (click)="toggleFilters()"
+      >
+        Filtres @if (activeFilters().length) { ({{ activeFilters().length }}) }
+      </button>
+
+      <div id="filters-panel" class="filters-panel" [class.is-open]="filtersOpen()">
+        <h2 class="filters-title">Filtres</h2>
+        <form
+          #f
+          id="filters-form"
+          class="filters-form"
+          (submit)="$event.preventDefault(); apply(f)"
+          (change)="apply(f)"
+        >
+          <div class="field">
+            <label for="f-q">Recherche</label>
+            <input id="f-q" type="search" name="q" autocomplete="off" [value]="s.q" />
+          </div>
+
+          <div class="field">
+            <label for="f-categorie">Catégorie</label>
+            <select id="f-categorie" name="categorie">
+              <option value="" [selected]="!s.categorie">Toutes</option>
+              @for (c of categories; track c.id) {
+                <option [value]="c.slug" [selected]="c.slug === s.categorie">{{ c.name }}</option>
+              }
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="f-etat">État</label>
+            <select id="f-etat" name="etat">
+              <option value="" [selected]="!s.etat">Tous</option>
+              @for (c of conditions; track c.id) {
+                <option [value]="c.id" [selected]="c.id === s.etat">{{ c.label }}</option>
+              }
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="f-taille">Taille</label>
+            <select id="f-taille" name="taille">
+              <option value="" [selected]="!s.taille">Toutes</option>
+              @for (t of sizes; track t) {
+                <option [value]="t" [selected]="t === s.taille">{{ t }}</option>
+              }
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="f-ville">Ville</label>
+            <select id="f-ville" name="ville">
+              <option value="" [selected]="!s.ville">Toutes</option>
+              @for (v of cities; track v) {
+                <option [value]="v" [selected]="v === s.ville">{{ v }}</option>
+              }
+            </select>
+          </div>
+
+          <fieldset class="field">
+            <legend>Prix (FCFA)</legend>
+            <div class="field-row">
+              <div class="field">
+                <label for="f-prixmin">Minimum</label>
+                <input id="f-prixmin" type="number" name="prixmin" min="0" step="500" inputmode="numeric" [value]="s.prixmin ?? ''" />
+              </div>
+              <div class="field">
+                <label for="f-prixmax">Maximum</label>
+                <input id="f-prixmax" type="number" name="prixmax" min="0" step="500" inputmode="numeric" [value]="s.prixmax ?? ''" />
+              </div>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary">Appliquer</button>
+          @if (activeFilters().length) {
+            <button type="button" class="btn btn-ghost" (click)="reset()">Réinitialiser</button>
+          }
+        </form>
+      </div>
+    </aside>
+
+    <div class="catalog-results">
+      <div class="results-bar">
+        <h2 id="results-title">
+          {{ results().length }} article{{ results().length > 1 ? 's' : '' }}
+        </h2>
+        <div class="field field-inline">
+          <label for="f-tri">Trier par</label>
+          <select id="f-tri" name="tri" form="filters-form" (change)="apply(f)">
+            @for (o of sorts; track o.id) {
+              <option [value]="o.id" [selected]="o.id === s.tri">{{ o.label }}</option>
+            }
+          </select>
+        </div>
+      </div>
+
+      @if (activeFilters().length) {
+        <ul class="tag-list active-filters" aria-label="Filtres actifs">
+          @for (a of activeFilters(); track a.label) {
+            <li>
+              <button type="button" class="tag tag-accent" (click)="removeFilter(a.keys)">
+                {{ a.label }}
+                <app-icon name="close" class="icon-sm" />
+                <span class="visually-hidden">Retirer ce filtre</span>
+              </button>
+            </li>
+          }
+        </ul>
+      }
+
+      @if (results().length) {
+        <ul class="product-grid" aria-labelledby="results-title">
+          @for (p of shown(); track p.id) {
+            <li><app-product-card [product]="p" /></li>
+          }
+        </ul>
+
+        @if (hasMore()) {
+          <div class="load-more">
+            <p>{{ shown().length }} articles affichés sur {{ results().length }}</p>
+            <button type="button" class="btn btn-secondary" (click)="loadMore()">
+              Charger plus d'articles
+            </button>
+          </div>
+        }
+      } @else {
+        <div class="empty-state">
+          <span class="category-icon"><app-icon name="search" /></span>
+          <h2>Aucun article trouvé</h2>
+          <p>Essayez de retirer un filtre ou de modifier votre recherche.</p>
+          <button type="button" class="btn btn-primary" (click)="reset()">Réinitialiser les filtres</button>
+        </div>
+      }
+    </div>
+  </div>
+</section>

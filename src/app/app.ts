@@ -22,6 +22,7 @@ export class App {
   private readonly announcer = inject(AnnouncerService);
   private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
   private firstNavigation = true;
+  private lastPath = '';
 
   constructor() {
     if (!this.isBrowser) return;
@@ -29,12 +30,17 @@ export class App {
     // Accessibilité : après chaque changement de page, le focus revient sur <main>
     // et le lecteur d'écran annonce le nouveau titre (sauf au premier chargement).
     this.router.events
-      .pipe(filter((e) => e instanceof NavigationEnd), takeUntilDestroyed())
-      .subscribe(() => {
+      .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd), takeUntilDestroyed())
+      .subscribe((event) => {
+        // Seule la page compte : changer un filtre (?categorie=…) ne doit pas voler le focus
+        const path = event.urlAfterRedirects.split(/[?#]/)[0];
+        const samePage = path === this.lastPath;
+        this.lastPath = path;
         if (this.firstNavigation) {
           this.firstNavigation = false;
           return;
         }
+        if (samePage) return;
         setTimeout(() => {
           this.doc.getElementById('main')?.focus({ preventScroll: true });
           this.announcer.announce(this.title.getTitle());
