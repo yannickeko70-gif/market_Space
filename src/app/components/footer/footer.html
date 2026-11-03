@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <section aria-labelledby="footer-about">
+      <h2 id="footer-about" class="footer-title">{{ siteName }}</h2>
+      <p class="muted">
+        La marketplace camerounaise de la mode de seconde main : pagne wax, toghu, baskets, sacs et
+        accessoires, vendus par des particuliers et de petites boutiques. Prix en FCFA.
+      </p>
+    </section>
+
+    <nav aria-labelledby="footer-categories">
+      <h2 id="footer-categories" class="footer-title">Catégories</h2>
+      <ul class="footer-list">
+        @for (c of categories; track c.id) {
+          <li>
+            <a routerLink="/catalogue" [queryParams]="{ categorie: c.slug }">{{ c.name }}</a>
+          </li>
+        }
+      </ul>
+    </nav>
+
+    <nav aria-labelledby="footer-links">
+      <h2 id="footer-links" class="footer-title">Navigation</h2>
+      <ul class="footer-list">
+        <li><a routerLink="/">Accueil</a></li>
+        <li><a routerLink="/catalogue">Catalogue</a></li>
+        <li><a routerLink="/favoris">Mes favoris</a></li>
+        <li><a routerLink="/panier">Mon panier</a></li>
+        <li><a routerLink="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer-title">Nous joindre</h2>
+      <address>
+        <p class="inline-icon"><app-icon name="pin" class="icon-sm" /> Douala, Cameroun</p>
+        <a href="mailto:contact@marketspace.cm"
+          ><app-icon name="mail" class="icon-sm" />&nbsp;contact&#64;marketspace.cm</a
+        >
+      </address>
+    </section>
+  </div>
+
+  <p class="container copyright">© {{ year }} {{ siteName }} – Tous droits réservés.</p>
+</footer>

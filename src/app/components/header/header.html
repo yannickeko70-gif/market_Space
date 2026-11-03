@@ -1,0 +1,79 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <button
+      type="button"
+      class="icon-btn menu-toggle"
+      aria-controls="main-nav"
+      [attr.aria-expanded]="menuOpen()"
+      (click)="toggleMenu()"
+    >
+      <app-icon [name]="menuOpen() ? 'close' : 'menu'" />
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <a routerLink="/" class="logo" aria-label="MarketSpace – retour à l'accueil">
+      <span class="logo-mark" aria-hidden="true">M</span>
+      <span class="logo-text" aria-hidden="true">Market<strong>Space</strong></span>
+    </a>
+
+    <form class="header-search" role="search" (submit)="search($event, q.value)">
+      <label for="header-q" class="visually-hidden">Rechercher un article</label>
+      <input
+        #q
+        id="header-q"
+        name="q"
+        type="search"
+        placeholder="Rechercher un article…"
+        autocomplete="off"
+        enterkeyhint="search"
+      />
+      <button type="submit" class="icon-btn search-submit">
+        <app-icon name="search" />
+        <span class="visually-hidden">Lancer la recherche</span>
+      </button>
+    </form>
+
+    <nav id="main-nav" class="main-nav" [class.is-open]="menuOpen()" aria-label="Navigation principale">
+      <ul class="nav-list">
+        @for (link of links; track link.path) {
+          <li>
+            <a
+              [routerLink]="link.path"
+              routerLinkActive
+              ariaCurrentWhenActive="page"
+              [routerLinkActiveOptions]="{ exact: link.exact }"
+              >{{ link.label }}</a
+            >
+          </li>
+        }
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="icon-btn theme-toggle" (click)="theme.toggle()">
+        <!-- Les deux icônes sont toujours présentes ; le CSS affiche la bonne (compatible SSR) -->
+        <app-icon name="moon" class="theme-icon-to-dark" />
+        <app-icon name="sun" class="theme-icon-to-light" />
+        <span class="visually-hidden">{{
+          theme.isDark() ? 'Passer au thème clair' : 'Passer au thème sombre'
+        }}</span>
+      </button>
+
+      <a routerLink="/favoris" class="icon-btn">
+        <app-icon name="heart" />
+        <span class="badge badge-count" aria-hidden="true" [style.display]="favorites.count() ? null : 'none'">{{
+          favorites.count()
+        }}</span>
+        <span class="visually-hidden">Favoris ({{ favorites.count() }})</span>
+      </a>
+
+      <a routerLink="/panier" class="icon-btn">
+        <app-icon name="bag" />
+        <span class="badge badge-count" aria-hidden="true" [style.display]="cart.count() ? null : 'none'">{{
+          cart.count()
+        }}</span>
+        <span class="visually-hidden">Panier ({{ cart.count() }} article{{ cart.count() > 1 ? 's' : '' }})</span>
+      </a>
+    </div>
+  </div>
+</header>

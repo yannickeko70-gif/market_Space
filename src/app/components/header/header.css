@@ -1,0 +1,13 @@
+/* Seuls les styles propres au composant : le reste est dans style/components.css */
+.theme-icon-to-light {
+  display: none;
+}
+
+/* Thème clair : on propose la lune ; thème sombre : on propose le soleil */
+:host-context([data-theme='dark']) .theme-icon-to-dark {
+  display: none;
+}
+
+:host-context([data-theme='dark']) .theme-icon-to-light {
+  display: inline-flex;
+}
