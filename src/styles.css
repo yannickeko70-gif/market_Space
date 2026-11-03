@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* Styles globaux MarketSpace – l'ordre des imports compte */
+@import './app/style/variables.css';
+@import './app/style/themes.css';
+@import './app/style/base.css';
+@import './app/style/components.css';
+@import './app/style/responsive.css';

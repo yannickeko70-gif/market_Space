@@ -1,0 +1,215 @@
+/* ==========================================================================
+   responsive.css – Points de rupture (approche mobile-first)
+   - smartphone : < 576 px  (styles par défaut, grille produits à 2 colonnes)
+   - tablette   : 576 – 991 px (3 colonnes)
+   - ordinateur : ≥ 992 px  (4 colonnes, navigation complète)
+   ========================================================================== */
+
+/* Très petits écrans (320 px) : on resserre les marges */
+@media (max-width: 359.98px) {
+  :root {
+    --gutter: 0.75rem;
+  }
+
+  .logo-text {
+    font-size: var(--fs-md);
+  }
+
+  .card-body {
+    padding: var(--space-2);
+  }
+}
+
+/* ------------------------------------------------------------- Tablette */
+@media (min-width: 576px) {
+  :root {
+    --gutter: 1.5rem;
+  }
+
+  h1,
+  .hero h1 {
+    font-size: var(--fs-3xl);
+  }
+
+  .product-grid > li {
+    width: 33.333%;
+  }
+
+  @supports (display: grid) {
+    .product-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-4);
+    }
+
+    .product-grid > li {
+      width: auto;
+    }
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .seller-grid,
+  .steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cart-line {
+    grid-template-columns: 6rem minmax(0, 1fr) auto;
+    align-items: center;
+  }
+
+  .cart-thumb img {
+    width: 6rem;
+  }
+
+  .cart-line-actions {
+    grid-column: auto;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+/* ------------------------------------------------------------- Ordinateur */
+@media (min-width: 992px) {
+  :root {
+    --gutter: 2rem;
+  }
+
+  /* En-tête sur une seule ligne : logo | recherche | navigation | actions */
+  .header-inner {
+    grid-template-columns: auto minmax(14rem, 1fr) auto auto;
+    grid-template-areas: "logo search nav actions";
+    column-gap: var(--space-5);
+    min-height: var(--header-h);
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .header-search {
+    margin-top: 0;
+    max-width: 32rem;
+  }
+
+  /* La navigation est toujours visible : le bouton burger disparaît */
+  .main-nav,
+  .main-nav.is-open {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    gap: var(--space-1);
+    padding: 0;
+  }
+
+  .nav-list a {
+    padding-inline: var(--space-3);
+    white-space: nowrap;
+  }
+
+  .hero-inner {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-7);
+    padding-block: var(--space-8);
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .product-grid > li {
+    width: 25%;
+  }
+
+  @supports (display: grid) {
+    .product-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: var(--space-5);
+    }
+
+    .product-grid > li {
+      width: auto;
+    }
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .seller-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .steps {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* Catalogue : filtres en colonne latérale toujours visibles */
+  .catalog-layout {
+    grid-template-columns: 14rem minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .filters {
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--header-h) + var(--space-4));
+  }
+
+  .filters-toggle {
+    display: none;
+  }
+
+  .filters-panel,
+  .filters-panel.is-open {
+    display: block;
+    margin-top: 0;
+  }
+
+  .product-detail {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .product-gallery {
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--header-h) + var(--space-4));
+  }
+
+  .cart-layout {
+    grid-template-columns: minmax(0, 1fr) 22rem;
+    align-items: start;
+  }
+
+  .cart-summary {
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--header-h) + var(--space-4));
+  }
+
+  .contact-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    align-items: start;
+  }
+
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  }
+}
+
+/* Grands écrans : colonne de filtres plus confortable */
+@media (min-width: 1200px) {
+  .catalog-layout {
+    grid-template-columns: 16rem minmax(0, 1fr);
+  }
+}

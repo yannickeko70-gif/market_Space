@@ -1,0 +1,698 @@
+[
+  {
+    "id": "p01",
+    "slug": "robe-pagne-wax-evasee",
+    "title": "Robe en pagne wax évasée",
+    "description": "Robe mi-longue en pagne wax 100 % coton, coupe évasée et fermeture éclair au dos. Portée deux fois pour un mariage, aucune tache.",
+    "price": 12500,
+    "currency": "XAF",
+    "category": "femme",
+    "size": "M",
+    "condition": "tres-bon",
+    "city": "Douala",
+    "images": [
+      {
+        "src": "assets/img/products/p01-a-800.jpg",
+        "alt": "Robe en pagne wax évasée orange à motifs ronds bleus, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p01-b-800.jpg",
+        "alt": "Robe en pagne wax évasée orange à motifs ronds bleus, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s1",
+    "rating": 4.5,
+    "createdAt": "2026-10-28"
+  },
+  {
+    "id": "p02",
+    "slug": "kaba-ngondo-brode",
+    "title": "Kaba ngondo brodé",
+    "description": "Kaba ample traditionnel sawa avec broderies à l'encolure. Idéal pour le Ngondo ou les cérémonies, très confortable.",
+    "price": 9000,
+    "currency": "XAF",
+    "category": "femme",
+    "size": "XL",
+    "condition": "bon",
+    "city": "Douala",
+    "images": [
+      {
+        "src": "assets/img/products/p02-a-800.jpg",
+        "alt": "Kaba ngondo brodé jaune à motifs verts, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p02-b-800.jpg",
+        "alt": "Kaba ngondo brodé jaune à motifs verts, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s1",
+    "rating": 5.0,
+    "createdAt": "2026-10-15"
+  },
+  {
+    "id": "p03",
+    "slug": "chemise-toghu-homme",
+    "title": "Chemise en tissu toghu",
+    "description": "Chemise traditionnelle du Nord-Ouest en velours noir brodé main (toghu). Manches longues, coupe droite.",
+    "price": 15000,
+    "currency": "XAF",
+    "category": "homme",
+    "size": "L",
+    "condition": "tres-bon",
+    "city": "Bamenda",
+    "images": [
+      {
+        "src": "assets/img/products/p03-a-800.jpg",
+        "alt": "Chemise en tissu toghu noire brodée rouge et or, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p03-b-800.jpg",
+        "alt": "Chemise en tissu toghu noire brodée rouge et or, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s6",
+    "rating": 5.0,
+    "createdAt": "2026-10-30"
+  },
+  {
+    "id": "p04",
+    "slug": "jean-droit-brut",
+    "title": "Jean droit brut",
+    "description": "Jean en denim brut, coupe droite, taille 40 FR. Légère usure naturelle aux genoux qui lui donne du caractère.",
+    "price": 7500,
+    "currency": "XAF",
+    "category": "homme",
+    "size": "M",
+    "condition": "bon",
+    "city": "Yaoundé",
+    "images": [
+      {
+        "src": "assets/img/products/p04-a-800.jpg",
+        "alt": "Jean droit brut bleu brut, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p04-b-800.jpg",
+        "alt": "Jean droit brut bleu brut, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s2",
+    "rating": 4.0,
+    "createdAt": "2026-09-22"
+  },
+  {
+    "id": "p05",
+    "slug": "baskets-montantes-cuir-blanc",
+    "title": "Baskets montantes en cuir blanc",
+    "description": "Baskets montantes en cuir, pointure 42. Semelles nettoyées et lacets neufs. Livrées dans leur boîte d'origine.",
+    "price": 18000,
+    "currency": "XAF",
+    "category": "chaussures",
+    "size": "42",
+    "condition": "tres-bon",
+    "city": "Bafoussam",
+    "images": [
+      {
+        "src": "assets/img/products/p05-a-800.jpg",
+        "alt": "Baskets montantes en cuir blanc blanches à détails verts, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p05-b-800.jpg",
+        "alt": "Baskets montantes en cuir blanc blanches à détails verts, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s3",
+    "rating": 4.5,
+    "createdAt": "2026-10-31"
+  },
+  {
+    "id": "p06",
+    "slug": "sac-main-cuir-camel",
+    "title": "Sac à main en cuir camel",
+    "description": "Sac à main en cuir véritable couleur camel, deux compartiments et une poche zippée intérieure. Anses solides.",
+    "price": 14000,
+    "currency": "XAF",
+    "category": "sacs",
+    "size": "Unique",
+    "condition": "tres-bon",
+    "city": "Yaoundé",
+    "images": [
+      {
+        "src": "assets/img/products/p06-a-800.jpg",
+        "alt": "Sac à main en cuir camel camel, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p06-b-800.jpg",
+        "alt": "Sac à main en cuir camel camel, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s2",
+    "rating": 4.0,
+    "createdAt": "2026-10-08"
+  },
+  {
+    "id": "p07",
+    "slug": "lunettes-soleil-retro",
+    "title": "Lunettes de soleil rétro",
+    "description": "Monture ronde effet écaille, verres teintés catégorie 3. Vendues avec leur étui en tissu.",
+    "price": 4500,
+    "currency": "XAF",
+    "category": "accessoires",
+    "size": "Unique",
+    "condition": "neuf-etiquette",
+    "city": "Bamenda",
+    "images": [
+      {
+        "src": "assets/img/products/p07-a-800.jpg",
+        "alt": "Lunettes de soleil rétro à monture écaille, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p07-b-800.jpg",
+        "alt": "Lunettes de soleil rétro à monture écaille, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s6",
+    "rating": null,
+    "createdAt": "2026-10-25"
+  },
+  {
+    "id": "p08",
+    "slug": "ensemble-enfant-wax",
+    "title": "Ensemble enfant en wax",
+    "description": "T-shirt et short assortis en pagne wax pour enfant de 4 ans. Jamais porté, étiquette encore attachée.",
+    "price": 6000,
+    "currency": "XAF",
+    "category": "enfants",
+    "size": "4 ans",
+    "condition": "neuf-etiquette",
+    "city": "Limbé",
+    "images": [
+      {
+        "src": "assets/img/products/p08-a-800.jpg",
+        "alt": "Ensemble enfant en wax vert à motifs jaunes, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p08-b-800.jpg",
+        "alt": "Ensemble enfant en wax vert à motifs jaunes, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s5",
+    "rating": 5.0,
+    "createdAt": "2026-10-20"
+  },
+  {
+    "id": "p09",
+    "slug": "veste-jean-vintage",
+    "title": "Veste en jean vintage",
+    "description": "Veste en jean délavée des années 90, boutons métalliques d'origine. Coupe légèrement oversize.",
+    "price": 11000,
+    "currency": "XAF",
+    "category": "homme",
+    "size": "L",
+    "condition": "bon",
+    "city": "Yaoundé",
+    "images": [
+      {
+        "src": "assets/img/products/p09-a-800.jpg",
+        "alt": "Veste en jean vintage bleu délavé, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p09-b-800.jpg",
+        "alt": "Veste en jean vintage bleu délavé, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s2",
+    "rating": null,
+    "createdAt": "2026-09-30"
+  },
+  {
+    "id": "p10",
+    "slug": "robe-longue-lin",
+    "title": "Robe longue en lin",
+    "description": "Robe longue en lin naturel, bretelles fines et poches latérales. Fraîche et parfaite pour la chaleur de Garoua.",
+    "price": 13500,
+    "currency": "XAF",
+    "category": "femme",
+    "size": "S",
+    "condition": "tres-bon",
+    "city": "Garoua",
+    "images": [
+      {
+        "src": "assets/img/products/p10-a-800.jpg",
+        "alt": "Robe longue en lin beige naturel, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p10-b-800.jpg",
+        "alt": "Robe longue en lin beige naturel, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s4",
+    "rating": 5.0,
+    "createdAt": "2026-10-11"
+  },
+  {
+    "id": "p11",
+    "slug": "boubou-brode-homme",
+    "title": "Boubou brodé homme",
+    "description": "Grand boubou en bazin blanc cassé avec broderies dorées à l'encolure. Porté une seule fois pour la Tabaski.",
+    "price": 22000,
+    "currency": "XAF",
+    "category": "homme",
+    "size": "XL",
+    "condition": "tres-bon",
+    "city": "Garoua",
+    "images": [
+      {
+        "src": "assets/img/products/p11-a-800.jpg",
+        "alt": "Boubou brodé homme blanc cassé brodé or, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p11-b-800.jpg",
+        "alt": "Boubou brodé homme blanc cassé brodé or, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s4",
+    "rating": 5.0,
+    "createdAt": "2026-10-04"
+  },
+  {
+    "id": "p12",
+    "slug": "sandales-cuir-tresse",
+    "title": "Sandales en cuir tressé",
+    "description": "Sandales plates en cuir tressé artisanal, pointure 39. Semelle en cuir encore en bon état.",
+    "price": 8000,
+    "currency": "XAF",
+    "category": "chaussures",
+    "size": "39",
+    "condition": "bon",
+    "city": "Garoua",
+    "images": [
+      {
+        "src": "assets/img/products/p12-a-800.jpg",
+        "alt": "Sandales en cuir tressé marron, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p12-b-800.jpg",
+        "alt": "Sandales en cuir tressé marron, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s4",
+    "rating": null,
+    "createdAt": "2026-09-18"
+  },
+  {
+    "id": "p13",
+    "slug": "sac-dos-toile",
+    "title": "Sac à dos en toile",
+    "description": "Sac à dos en toile épaisse kaki, compartiment ordinateur 15 pouces. Quelques traces d'usage sur le fond.",
+    "price": 7000,
+    "currency": "XAF",
+    "category": "sacs",
+    "size": "Unique",
+    "condition": "satisfaisant",
+    "city": "Bafoussam",
+    "images": [
+      {
+        "src": "assets/img/products/p13-a-800.jpg",
+        "alt": "Sac à dos en toile kaki, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p13-b-800.jpg",
+        "alt": "Sac à dos en toile kaki, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s3",
+    "rating": 3.0,
+    "createdAt": "2026-08-27"
+  },
+  {
+    "id": "p14",
+    "slug": "casquette-verte-brodee",
+    "title": "Casquette verte brodée",
+    "description": "Casquette en coton vert brodée d'une étoile jaune, réglable à l'arrière. Portée quelques fois.",
+    "price": 3500,
+    "currency": "XAF",
+    "category": "accessoires",
+    "size": "Unique",
+    "condition": "tres-bon",
+    "city": "Bafoussam",
+    "images": [
+      {
+        "src": "assets/img/products/p14-a-800.jpg",
+        "alt": "Casquette verte brodée verte à étoile jaune, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p14-b-800.jpg",
+        "alt": "Casquette verte brodée verte à étoile jaune, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s3",
+    "rating": 4.0,
+    "createdAt": "2026-10-18"
+  },
+  {
+    "id": "p15",
+    "slug": "chemise-lin-blanche",
+    "title": "Chemise en lin blanche",
+    "description": "Chemise en lin blanc à col mao, manches longues. Neuve avec étiquette, achetée trop grande.",
+    "price": 9500,
+    "currency": "XAF",
+    "category": "homme",
+    "size": "M",
+    "condition": "neuf-etiquette",
+    "city": "Bamenda",
+    "images": [
+      {
+        "src": "assets/img/products/p15-a-800.jpg",
+        "alt": "Chemise en lin blanche blanche, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p15-b-800.jpg",
+        "alt": "Chemise en lin blanche blanche, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s6",
+    "rating": null,
+    "createdAt": "2026-10-27"
+  },
+  {
+    "id": "p16",
+    "slug": "jupe-crayon-pagne",
+    "title": "Jupe crayon en pagne",
+    "description": "Jupe crayon taille haute en pagne wax, fente arrière. Doublée, idéale pour le bureau.",
+    "price": 8000,
+    "currency": "XAF",
+    "category": "femme",
+    "size": "M",
+    "condition": "tres-bon",
+    "city": "Douala",
+    "images": [
+      {
+        "src": "assets/img/products/p16-a-800.jpg",
+        "alt": "Jupe crayon en pagne bordeaux à motifs jaunes, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p16-b-800.jpg",
+        "alt": "Jupe crayon en pagne bordeaux à motifs jaunes, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s1",
+    "rating": null,
+    "createdAt": "2026-10-22"
+  },
+  {
+    "id": "p17",
+    "slug": "escarpins-noirs-vernis",
+    "title": "Escarpins noirs vernis",
+    "description": "Escarpins vernis noirs, talon de 8 cm, pointure 38. Petite marque d'usure sous la semelle.",
+    "price": 10000,
+    "currency": "XAF",
+    "category": "chaussures",
+    "size": "38",
+    "condition": "bon",
+    "city": "Yaoundé",
+    "images": [
+      {
+        "src": "assets/img/products/p17-a-800.jpg",
+        "alt": "Escarpins noirs vernis noirs vernis, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p17-b-800.jpg",
+        "alt": "Escarpins noirs vernis noirs vernis, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s2",
+    "rating": 4.0,
+    "createdAt": "2026-09-12"
+  },
+  {
+    "id": "p18",
+    "slug": "pochette-perlee",
+    "title": "Pochette perlée",
+    "description": "Pochette de soirée entièrement perlée à la main, fermoir aimanté et chaînette amovible.",
+    "price": 6500,
+    "currency": "XAF",
+    "category": "sacs",
+    "size": "Unique",
+    "condition": "neuf-etiquette",
+    "city": "Garoua",
+    "images": [
+      {
+        "src": "assets/img/products/p18-a-800.jpg",
+        "alt": "Pochette perlée violette perlée or, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p18-b-800.jpg",
+        "alt": "Pochette perlée violette perlée or, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s4",
+    "rating": null,
+    "createdAt": "2026-10-29"
+  },
+  {
+    "id": "p19",
+    "slug": "chapeau-paille",
+    "title": "Chapeau de paille",
+    "description": "Chapeau de paille tressé à larges bords, ruban noir. Parfait pour la plage de Limbé ou de Kribi.",
+    "price": 4000,
+    "currency": "XAF",
+    "category": "accessoires",
+    "size": "Unique",
+    "condition": "tres-bon",
+    "city": "Limbé",
+    "images": [
+      {
+        "src": "assets/img/products/p19-a-800.jpg",
+        "alt": "Chapeau de paille en paille claire, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p19-b-800.jpg",
+        "alt": "Chapeau de paille en paille claire, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s5",
+    "rating": null,
+    "createdAt": "2026-09-05"
+  },
+  {
+    "id": "p20",
+    "slug": "robe-fillette-volants",
+    "title": "Robe fillette à volants",
+    "description": "Robe à volants rose pour fillette de 6 ans, en coton léger. Lavée et repassée.",
+    "price": 5500,
+    "currency": "XAF",
+    "category": "enfants",
+    "size": "6 ans",
+    "condition": "tres-bon",
+    "city": "Limbé",
+    "images": [
+      {
+        "src": "assets/img/products/p20-a-800.jpg",
+        "alt": "Robe fillette à volants rose à pois blancs, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p20-b-800.jpg",
+        "alt": "Robe fillette à volants rose à pois blancs, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s5",
+    "rating": 4.0,
+    "createdAt": "2026-10-13"
+  },
+  {
+    "id": "p21",
+    "slug": "baskets-running-enfant",
+    "title": "Baskets running enfant",
+    "description": "Baskets de course légères pour enfant, pointure 30, scratch pour un chaussage facile. Usure visible.",
+    "price": 6500,
+    "currency": "XAF",
+    "category": "enfants",
+    "size": "30",
+    "condition": "satisfaisant",
+    "city": "Limbé",
+    "images": [
+      {
+        "src": "assets/img/products/p21-a-800.jpg",
+        "alt": "Baskets running enfant bleues à détails jaunes, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p21-b-800.jpg",
+        "alt": "Baskets running enfant bleues à détails jaunes, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s5",
+    "rating": 4.0,
+    "createdAt": "2026-08-19"
+  },
+  {
+    "id": "p22",
+    "slug": "montre-analogique-cuir",
+    "title": "Montre analogique bracelet cuir",
+    "description": "Montre à quartz, cadran blanc et bracelet en cuir marron. Pile changée en octobre 2026.",
+    "price": 12000,
+    "currency": "XAF",
+    "category": "accessoires",
+    "size": "Unique",
+    "condition": "tres-bon",
+    "city": "Bamenda",
+    "images": [
+      {
+        "src": "assets/img/products/p22-a-800.jpg",
+        "alt": "Montre analogique bracelet cuir argentée à bracelet marron, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p22-b-800.jpg",
+        "alt": "Montre analogique bracelet cuir argentée à bracelet marron, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s6",
+    "rating": 3.0,
+    "createdAt": "2026-10-06"
+  },
+  {
+    "id": "p23",
+    "slug": "t-shirt-graphique-mboa",
+    "title": "T-shirt graphique « Mboa »",
+    "description": "T-shirt en coton noir avec impression « Mboa » sur la poitrine. Couleurs encore vives.",
+    "price": 3000,
+    "currency": "XAF",
+    "category": "homme",
+    "size": "L",
+    "condition": "bon",
+    "city": "Bafoussam",
+    "images": [
+      {
+        "src": "assets/img/products/p23-a-800.jpg",
+        "alt": "T-shirt graphique « Mboa » noir, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p23-b-800.jpg",
+        "alt": "T-shirt graphique « Mboa » noir, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s3",
+    "rating": null,
+    "createdAt": "2026-09-26"
+  },
+  {
+    "id": "p24",
+    "slug": "top-dentelle-creme",
+    "title": "Top en dentelle crème",
+    "description": "Top en dentelle crème doublé, manches courtes. Neuf avec étiquette, jamais porté.",
+    "price": 7000,
+    "currency": "XAF",
+    "category": "femme",
+    "size": "S",
+    "condition": "neuf-etiquette",
+    "city": "Garoua",
+    "images": [
+      {
+        "src": "assets/img/products/p24-a-800.jpg",
+        "alt": "Top en dentelle crème crème en dentelle, vue d'ensemble",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "src": "assets/img/products/p24-b-800.jpg",
+        "alt": "Top en dentelle crème crème en dentelle, vue de détail",
+        "width": 800,
+        "height": 1000
+      }
+    ],
+    "sellerId": "s4",
+    "rating": 5.0,
+    "createdAt": "2026-11-01"
+  }
+]

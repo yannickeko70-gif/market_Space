@@ -1,0 +1,164 @@
+[
+  {
+    "id": "r01",
+    "productId": "p01",
+    "sellerId": "s1",
+    "author": "Mireille T.",
+    "rating": 5,
+    "comment": "Robe conforme aux photos, tissu de qualité. Awa a été très réactive sur WhatsApp.",
+    "date": "2026-10-30"
+  },
+  {
+    "id": "r02",
+    "productId": "p01",
+    "sellerId": "s1",
+    "author": "Carine E.",
+    "rating": 4,
+    "comment": "Très belle coupe, j'ai juste fait reprendre la taille de deux centimètres.",
+    "date": "2026-11-01"
+  },
+  {
+    "id": "r03",
+    "productId": "p05",
+    "sellerId": "s3",
+    "author": "Junior K.",
+    "rating": 5,
+    "comment": "Baskets propres, presque neuves. Remise en main propre au marché A sans souci.",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "r04",
+    "productId": "p05",
+    "sellerId": "s3",
+    "author": "Boris N.",
+    "rating": 4,
+    "comment": "Bon vendeur, paire bien nettoyée. Livraison un jour plus tard que prévu.",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "r05",
+    "productId": "p03",
+    "sellerId": "s6",
+    "author": "Emmanuel A.",
+    "rating": 5,
+    "comment": "Toghu authentique, broderies impeccables. Je recommande Che Fashion House.",
+    "date": "2026-11-01"
+  },
+  {
+    "id": "r06",
+    "productId": "p06",
+    "sellerId": "s2",
+    "author": "Solange M.",
+    "rating": 4,
+    "comment": "Cuir de bonne qualité, une petite rayure non signalée mais rien de grave.",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "r07",
+    "productId": "p10",
+    "sellerId": "s4",
+    "author": "Hadja B.",
+    "rating": 5,
+    "comment": "Robe magnifique et très fraîche, exactement ce que je cherchais.",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "r08",
+    "productId": "p11",
+    "sellerId": "s4",
+    "author": "Moussa D.",
+    "rating": 5,
+    "comment": "Boubou impeccable, broderies superbes. Envoi bien emballé depuis Garoua.",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "r09",
+    "productId": "p08",
+    "sellerId": "s5",
+    "author": "Laure F.",
+    "rating": 5,
+    "comment": "Ensemble tout neuf, mon fils l'adore. Merci !",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "r10",
+    "productId": "p20",
+    "sellerId": "s5",
+    "author": "Grace O.",
+    "rating": 4,
+    "comment": "Jolie robe, taille un peu petite pour 6 ans.",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "r11",
+    "productId": "p22",
+    "sellerId": "s6",
+    "author": "Valery T.",
+    "rating": 3,
+    "comment": "Montre fonctionnelle mais bracelet plus usé que sur les photos.",
+    "date": "2026-10-14"
+  },
+  {
+    "id": "r12",
+    "productId": "p17",
+    "sellerId": "s2",
+    "author": "Nadège K.",
+    "rating": 4,
+    "comment": "Escarpins confortables pour la hauteur du talon, bon rapport qualité-prix.",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "r13",
+    "productId": "p13",
+    "sellerId": "s3",
+    "author": "Arnaud P.",
+    "rating": 3,
+    "comment": "Sac pratique mais l'usure est plus visible qu'annoncé.",
+    "date": "2026-09-04"
+  },
+  {
+    "id": "r14",
+    "productId": "p02",
+    "sellerId": "s1",
+    "author": "Pauline M.",
+    "rating": 5,
+    "comment": "Kaba très confortable, broderies soignées. Parfait pour le Ngondo.",
+    "date": "2026-10-21"
+  },
+  {
+    "id": "r15",
+    "productId": "p04",
+    "sellerId": "s2",
+    "author": "Steve B.",
+    "rating": 4,
+    "comment": "Jean solide, la coupe droite tombe bien.",
+    "date": "2026-09-29"
+  },
+  {
+    "id": "r16",
+    "productId": "p24",
+    "sellerId": "s4",
+    "author": "Fadimatou A.",
+    "rating": 5,
+    "comment": "Top élégant, dentelle de très bonne qualité.",
+    "date": "2026-11-02"
+  },
+  {
+    "id": "r17",
+    "productId": "p14",
+    "sellerId": "s3",
+    "author": "Cédric L.",
+    "rating": 4,
+    "comment": "Casquette en bon état, broderie intacte.",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "r18",
+    "productId": "p21",
+    "sellerId": "s5",
+    "author": "Brenda N.",
+    "rating": 4,
+    "comment": "Baskets encore utilisables pour l'école, prix honnête.",
+    "date": "2026-08-28"
+  }
+]

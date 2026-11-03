@@ -1,0 +1,44 @@
+[
+  {
+    "id": "femme",
+    "slug": "femme",
+    "name": "Mode femme",
+    "icon": "icon-dress",
+    "description": "Robes en pagne, kabas, jupes et tops de seconde main."
+  },
+  {
+    "id": "homme",
+    "slug": "homme",
+    "name": "Mode homme",
+    "icon": "icon-shirt",
+    "description": "Chemises en toghu, boubous, jeans et t-shirts."
+  },
+  {
+    "id": "chaussures",
+    "slug": "chaussures",
+    "name": "Chaussures",
+    "icon": "icon-shoe",
+    "description": "Baskets, sandales en cuir et escarpins."
+  },
+  {
+    "id": "sacs",
+    "slug": "sacs",
+    "name": "Sacs",
+    "icon": "icon-bag",
+    "description": "Sacs à main, pochettes perlées et sacs à dos."
+  },
+  {
+    "id": "accessoires",
+    "slug": "accessoires",
+    "name": "Accessoires",
+    "icon": "icon-glasses",
+    "description": "Lunettes, chapeaux, casquettes et montres."
+  },
+  {
+    "id": "enfants",
+    "slug": "enfants",
+    "name": "Enfants",
+    "icon": "icon-child",
+    "description": "Vêtements et chaussures pour les petits."
+  }
+]

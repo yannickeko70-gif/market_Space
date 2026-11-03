@@ -1,0 +1,63 @@
+/* ==========================================================================
+   themes.css – Thème sombre
+   Sur le fond sombre #121614, #057255 n'atteint que 3,0:1 : insuffisant pour
+   du texte (AA = 4,5:1). On utilise donc une nuance plus claire de la même
+   teinte (≈ 162°) : #3dbe98, qui offre 7,8:1 sur le fond et 7,0:1 sur les
+   cartes. Les boutons pleins passent en texte foncé (#0b1f18) sur l'accent.
+   ========================================================================== */
+
+/* Sans JavaScript ou avant l'application du choix : on suit le système */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --accent: #3dbe98;
+    --accent-hover: #5fd0ae;
+    --accent-soft: #173a2f;
+    --accent-contrast: #0b1f18;
+    --accent-text: #3dbe98;
+    --bg: #121614;
+    --bg-alt: #171c1a;
+    --surface: #1b211e;
+    --surface-2: #232b27;
+    --text: #e8eeeb;
+    --text-muted: #a8b3ae;
+    --border: #2e3833;
+    --border-strong: #6c7a73;
+    --danger: #ff8a80;
+    --danger-soft: #3a1f1d;
+    --star: #f2c14e;
+    --focus-ring: #3dbe98;
+    --overlay: rgba(0, 0, 0, 0.6);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+    color-scheme: dark;
+  }
+}
+
+/* Choix explicite de l'utilisateur (bouton de thème, mémorisé en localStorage) */
+[data-theme="dark"] {
+  --accent: #3dbe98;
+  --accent-hover: #5fd0ae;
+  --accent-soft: #173a2f;
+  --accent-contrast: #0b1f18;
+  --accent-text: #3dbe98;
+  --bg: #121614;
+  --bg-alt: #171c1a;
+  --surface: #1b211e;
+  --surface-2: #232b27;
+  --text: #e8eeeb;
+  --text-muted: #a8b3ae;
+  --border: #2e3833;
+  --border-strong: #6c7a73;
+  --danger: #ff8a80;
+  --danger-soft: #3a1f1d;
+  --star: #f2c14e;
+  --focus-ring: #3dbe98;
+  --overlay: rgba(0, 0, 0, 0.6);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+}

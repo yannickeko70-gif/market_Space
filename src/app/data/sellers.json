@@ -1,0 +1,98 @@
+[
+  {
+    "id": "s1",
+    "slug": "awa-couture",
+    "name": "Awa Couture",
+    "city": "Douala",
+    "bio": "Couturière à Akwa depuis 12 ans, je revends les tenues en pagne de mes clientes et mes créations retouchées.",
+    "joinedAt": "2025-03-14",
+    "responseTime": "moins d'une heure",
+    "verified": true,
+    "avatar": {
+      "src": "assets/img/sellers/s1-192.jpg",
+      "alt": "Logo de la boutique Awa Couture",
+      "width": 192,
+      "height": 192
+    }
+  },
+  {
+    "id": "s2",
+    "slug": "ngono-vintage",
+    "name": "Ngono Vintage",
+    "city": "Yaoundé",
+    "bio": "Friperie sélectionnée au marché Mokolo : jeans, vestes et sacs en cuir vérifiés pièce par pièce.",
+    "joinedAt": "2024-11-02",
+    "responseTime": "2 heures",
+    "verified": true,
+    "avatar": {
+      "src": "assets/img/sellers/s2-192.jpg",
+      "alt": "Logo de la boutique Ngono Vintage",
+      "width": 192,
+      "height": 192
+    }
+  },
+  {
+    "id": "s3",
+    "slug": "kamga-sneakers",
+    "name": "Kamga Sneakers",
+    "city": "Bafoussam",
+    "bio": "Passionné de baskets, je nettoie et restaure chaque paire avant la mise en vente.",
+    "joinedAt": "2025-06-21",
+    "responseTime": "3 heures",
+    "verified": false,
+    "avatar": {
+      "src": "assets/img/sellers/s3-192.jpg",
+      "alt": "Logo de la boutique Kamga Sneakers",
+      "width": 192,
+      "height": 192
+    }
+  },
+  {
+    "id": "s4",
+    "slug": "aminatou-mode",
+    "name": "Aminatou Mode",
+    "city": "Garoua",
+    "bio": "Tenues en lin, boubous brodés et accessoires perlés du Grand Nord.",
+    "joinedAt": "2025-01-09",
+    "responseTime": "moins d'une heure",
+    "verified": true,
+    "avatar": {
+      "src": "assets/img/sellers/s4-192.jpg",
+      "alt": "Logo de la boutique Aminatou Mode",
+      "width": 192,
+      "height": 192
+    }
+  },
+  {
+    "id": "s5",
+    "slug": "petits-pas-limbe",
+    "name": "Petits Pas Limbé",
+    "city": "Limbé",
+    "bio": "Maman de trois enfants, je donne une seconde vie aux vêtements devenus trop petits.",
+    "joinedAt": "2025-08-30",
+    "responseTime": "4 heures",
+    "verified": false,
+    "avatar": {
+      "src": "assets/img/sellers/s5-192.jpg",
+      "alt": "Logo de la boutique Petits Pas Limbé",
+      "width": 192,
+      "height": 192
+    }
+  },
+  {
+    "id": "s6",
+    "slug": "che-fashion-house",
+    "name": "Che Fashion House",
+    "city": "Bamenda",
+    "bio": "Chemises en toghu, montres et lunettes : l'élégance du Nord-Ouest à petit prix.",
+    "joinedAt": "2024-09-18",
+    "responseTime": "1 heure",
+    "verified": true,
+    "avatar": {
+      "src": "assets/img/sellers/s6-192.jpg",
+      "alt": "Logo de la boutique Che Fashion House",
+      "width": 192,
+      "height": 192
+    }
+  }
+]

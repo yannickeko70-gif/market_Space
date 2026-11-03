@@ -1,0 +1,8 @@
+# Robots MarketSpace
+User-agent: *
+Allow: /
+# Pages personnelles sans intérêt pour les moteurs de recherche
+Disallow: /panier
+Disallow: /favoris
+
+Sitemap: https://www.marketspace.cm/sitemap.xml
