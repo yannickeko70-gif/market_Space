@@ -1,0 +1,153 @@
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Seconde main · Cameroun</p>
+      <h1 id="hero-title">Mode de seconde main au Cameroun</h1>
+      <p class="hero-lead">
+        Achetez et vendez robes en pagne, chaussures, sacs et accessoires entre particuliers, partout
+        au Cameroun. Prix en FCFA.
+      </p>
+
+      <form class="hero-search" role="search" (submit)="search($event, q.value)">
+        <label for="hero-q" class="visually-hidden">Rechercher un article</label>
+        <input #q id="hero-q" type="search" name="q" placeholder="Robe, baskets, sac en cuir…" autocomplete="off" />
+        <button type="submit" class="btn btn-primary">Rechercher</button>
+      </form>
+
+      <ul class="hero-stats">
+        <li><strong>{{ productCount }}</strong> articles</li>
+        <li><strong>{{ sellerCount }}</strong> vendeurs</li>
+        <li><strong>{{ categories.length }}</strong> catégories</li>
+      </ul>
+    </div>
+
+    <figure class="hero-media">
+      <app-picture
+        src="assets/img/hero/hero-1200.jpg"
+        alt="Une robe en pagne, un chapeau de paille, un sac en cuir, une basket et une veste brodée présentés sur des cartes colorées"
+        [width]="1200"
+        [height]="900"
+        [widths]="[600, 1200]"
+        sizes="(min-width: 64rem) 560px, 100vw"
+        [priority]="true"
+      />
+    </figure>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="categories-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="categories-title">Parcourir par catégorie</h2>
+    </div>
+    <ul class="category-grid">
+      @for (c of categories; track c.id) {
+        <li>
+          <a class="category-card" routerLink="/catalogue" [queryParams]="{ categorie: c.slug }">
+            <span class="category-icon"><app-icon [name]="iconOf(c)" /></span>
+            <span class="category-name">{{ c.name }}</span>
+            <span class="category-count">{{ categoryCount(c) }} articles</span>
+          </a>
+        </li>
+      }
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="latest-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="latest-title">Nouveautés</h2>
+      <a routerLink="/catalogue" class="link-arrow">
+        Voir tout le catalogue <app-icon name="arrow" class="icon-sm" />
+      </a>
+    </div>
+    <ul class="product-grid">
+      @for (p of latest; track p.id) {
+        <li><app-product-card [product]="p" /></li>
+      }
+    </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="steps-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="steps-title">Comment ça marche</h2>
+    </div>
+    <ol class="steps">
+      @for (s of steps; track s.title) {
+        <li class="step">
+          <span class="category-icon"><app-icon [name]="s.icon" /></span>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.text }}</p>
+        </li>
+      }
+    </ol>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="sellers-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="sellers-title">Nos vendeurs</h2>
+    </div>
+    <ul class="seller-grid">
+      @for (s of data.sellers; track s.id) {
+        @let r = sellerRating(s);
+        <li>
+          <article class="seller-card">
+            <span class="avatar">
+              <app-picture
+                [src]="s.avatar.src"
+                [alt]="s.avatar.alt"
+                [width]="96"
+                [height]="96"
+                [widths]="[96, 192]"
+                sizes="64px"
+              />
+            </span>
+            <div>
+              <h3><a [routerLink]="['/vendeur', s.slug]">{{ s.name }}</a></h3>
+              <p class="seller-meta">
+                <span class="inline-icon"><app-icon name="pin" />{{ s.city }}</span>
+                <span>{{ sellerProductCount(s) }} articles</span>
+                @if (s.verified) {
+                  <span class="verified"><app-icon name="shield" class="icon-sm" />Vérifié</span>
+                }
+                @if (r.count > 0) {
+                  <app-rating [value]="r.average" [count]="r.count" />
+                }
+              </p>
+            </div>
+          </article>
+        </li>
+      }
+    </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="reviews-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="reviews-title">Les derniers avis</h2>
+    </div>
+    <ul class="review-list">
+      @for (r of recentReviews; track r.id) {
+        <li class="review">
+          <div class="review-head">
+            <p class="review-author">{{ r.author }}</p>
+            <app-rating [value]="r.rating" />
+          </div>
+          <p>{{ r.comment }}</p>
+          <p>
+            <time [attr.datetime]="r.date">{{ date(r.date) }}</time>
+            @if (productOf(r); as p) {
+              · <a [routerLink]="['/produit', p.slug]">{{ p.title }}</a>
+            }
+          </p>
+        </li>
+      }
+    </ul>
+  </div>
+</section>

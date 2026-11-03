@@ -21,6 +21,7 @@ export interface Product {
   city: string;
   images: ImageAsset[];
   sellerId: string;
-  rating: number;
+  /** null = pas encore d'avis */
+  rating: number | null;
   createdAt: string; // AAAA-MM-JJ
 }
