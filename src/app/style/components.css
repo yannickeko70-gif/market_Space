@@ -1442,18 +1442,80 @@
 
 /* --------------------------------------------------------------- Page 404 */
 .not-found {
-  max-width: 36rem;
+  max-width: 58rem;
   margin-inline: auto;
   padding-block: var(--space-7);
+}
+
+.not-found-panel {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-5);
+  padding: var(--space-6) var(--space-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--surface), var(--bg-alt));
   text-align: center;
+}
+
+.not-found-illustration {
+  position: relative;
+  display: grid;
+  width: 9rem;
+  height: 9rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--accent-soft);
 }
 
 .not-found-code {
   margin: 0;
   color: var(--accent-text);
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: var(--fw-bold);
+  letter-spacing: -0.06em;
   line-height: 1;
+}
+
+.not-found-symbol {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--accent-text);
+  box-shadow: var(--shadow-sm);
+}
+
+.not-found-symbol .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.not-found-label {
+  display: inline-block;
+  margin-bottom: var(--space-3);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+}
+
+.not-found-content h1 {
+  margin-bottom: var(--space-3);
+}
+
+.not-found-description {
+  max-width: 34rem;
+  margin: 0 auto var(--space-5);
+  color: var(--text-muted);
 }
 
 .not-found-actions {

@@ -75,6 +75,28 @@
   }
 }
 
+@media (min-width: 768px) {
+  .not-found-panel {
+    grid-template-columns: auto minmax(0, 1fr);
+    justify-items: start;
+    gap: var(--space-7);
+    padding: var(--space-7);
+    text-align: left;
+  }
+
+  .not-found-content {
+    max-width: 38rem;
+  }
+
+  .not-found-description {
+    margin-inline: 0;
+  }
+
+  .not-found-actions {
+    justify-content: flex-start;
+  }
+}
+
 /* ------------------------------------------------------------- Ordinateur */
 @media (min-width: 992px) {
   :root {
