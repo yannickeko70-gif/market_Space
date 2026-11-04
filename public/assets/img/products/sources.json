@@ -1,0 +1,175 @@
+{
+  "retrievedAt": "2026-11-04",
+  "note": "Photos de référence trouvées sur Internet et associées aux produits de démonstration. Les photos illustrent le type de produit ; elles ne certifient ni son état ni tous ses détails. Une seule vue est utilisée lorsqu’aucune autre photo du même article n’est disponible. Droits de réutilisation non vérifiés auprès des propriétaires.",
+  "images": [
+    {
+      "productId": "p01",
+      "pageUrl": "https://marketplace.anka.africa/en/article/summer-dress-in-wax-royalty-short-dresses-orange-none-for-her-ankara-cotton/WWMFJV1",
+      "imageUrl": "https://d13k5xkmdqbhs.cloudfront.net/products/WWMFJV1/TC69N6A7-large.jpg",
+      "alt": "Robe évasée en pagne wax orange et bleu portée par un mannequin",
+      "localSrc": "assets/img/products/p01-robe-pagne-wax-evasee-800.jpg"
+    },
+    {
+      "productId": "p02",
+      "pageUrl": "https://fr.pinterest.com/moukokojames/kaba-ngondo-cameroun/",
+      "imageUrl": "https://i.pinimg.com/originals/9b/46/81/9b468186229e292e735eef3f29b9494f.jpg",
+      "alt": "Kaba ngondo jaune ample avec broderies et coiffe assortie",
+      "localSrc": "assets/img/products/p02-kaba-ngondo-brode-800.jpg"
+    },
+    {
+      "productId": "p03",
+      "pageUrl": "https://clipkulture.com/man-in-cameroon-toghu-traditional-outfit/",
+      "imageUrl": "https://clipkulture.com/wp-content/uploads/2019/10/screenshot-15725080848g4nk.png",
+      "alt": "Tenue traditionnelle toghu noire brodée de motifs rouges et jaunes",
+      "localSrc": "assets/img/products/p03-chemise-toghu-homme-800.jpg"
+    },
+    {
+      "productId": "p04",
+      "pageUrl": "https://www.jules.com/fr-fr/l/jeans-made-in-france/",
+      "imageUrl": "https://www.jules.com/dw/image/v2/AAHK_PRD/on/demandware.static/-/Sites-core-master-catalog/default/dw9b16ed86/images/1006308_9980_V11.jpg?sh=600&sm=cut&sw=400",
+      "alt": "Jean droit en denim bleu brut",
+      "localSrc": "assets/img/products/p04-jean-droit-brut-800.jpg"
+    },
+    {
+      "productId": "p05",
+      "pageUrl": "https://thursdayboots.com/products/mens-premier-high-top-sneaker-white",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0419/1525/files/Details-Men-HighTop-White-220118_800x720.jpg?v=1642550036",
+      "alt": "Baskets montantes en cuir blanc à lacets",
+      "localSrc": "assets/img/products/p05-baskets-montantes-cuir-blanc-800.jpg"
+    },
+    {
+      "productId": "p06",
+      "pageUrl": "https://francinel.com/products/danielle-grand-porte-main-camel",
+      "imageUrl": "https://francinel.com/cdn/shop/products/22554_16_c93a471f-e7c0-4875-84af-08000c9baa48_1200x1200.jpg?v=1681909642",
+      "alt": "Sac à main camel à deux anses et bandoulière",
+      "localSrc": "assets/img/products/p06-sac-main-cuir-camel-800.jpg"
+    },
+    {
+      "productId": "p07",
+      "pageUrl": "https://vasuma.com/products/gevone-sun",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0049/2932/3108/products/Gevone_2_1400px.jpg?v=1636547704",
+      "alt": "Lunettes de soleil rondes à monture écaille",
+      "localSrc": "assets/img/products/p07-lunettes-soleil-retro-800.jpg"
+    },
+    {
+      "productId": "p08",
+      "pageUrl": "https://www.etsy.com/listing/1459374224/african-print-shorts-outfit-for-kids",
+      "imageUrl": "https://i.etsystatic.com/20225294/r/il/13de37/6167894979/il_1588xN.6167894979_pq8e.jpg",
+      "alt": "Ensemble enfant avec t-shirt blanc à empiècements wax et short en wax bleu et jaune",
+      "localSrc": "assets/img/products/p08-ensemble-enfant-wax-800.jpg"
+    },
+    {
+      "productId": "p09",
+      "pageUrl": "https://www.ebay.com/itm/175548303836",
+      "imageUrl": "https://i.ebayimg.com/images/g/WBYAAOSwXLZjH-~Y/s-l1200.jpg",
+      "alt": "Veste en jean bleu délavé à boutons métalliques",
+      "localSrc": "assets/img/products/p09-veste-jean-vintage-800.jpg"
+    },
+    {
+      "productId": "p10",
+      "pageUrl": "https://ricochetboutique.com/collections/dress",
+      "imageUrl": "https://ricochetboutique.com/cdn/shop/files/ARWAMAXIDRESS_1fcff2b3-420e-4be0-a987-71c262ddc8ba_430x.jpg?v=1770916454",
+      "alt": "Robe longue beige en lin à fines bretelles",
+      "localSrc": "assets/img/products/p10-robe-longue-lin-800.jpg"
+    },
+    {
+      "productId": "p11",
+      "pageUrl": "https://boutique-africaine.com/products/boubou-africain-a-l-ancienne-pour-homme",
+      "imageUrl": "https://boutique-africaine.com/cdn/shop/files/BoubouAfricainaL_AnciennePourHomme.jpg?v=1721471160",
+      "alt": "Boubou blanc avec broderies dorées sur le devant",
+      "localSrc": "assets/img/products/p11-boubou-brode-homme-800.jpg"
+    },
+    {
+      "productId": "p12",
+      "pageUrl": "https://www.usine23.com/les-tropeziennes-hippy-a65164",
+      "imageUrl": "https://www.usine23.com/img/prod/zoom/65164_2.jpg",
+      "alt": "Sandales plates marron à brides en cuir tressé",
+      "localSrc": "assets/img/products/p12-sandales-cuir-tresse-800.jpg"
+    },
+    {
+      "productId": "p13",
+      "pageUrl": "https://www.hepsiburada.com/canta-yurdu-ccs-london-51573-laptop-kanvas-sirt-cantasi-haki-pm-HBC00006MSSYM",
+      "imageUrl": "https://productimages.hepsiburada.net/s/777/424-600/110000724622875.jpg",
+      "alt": "Sac à dos kaki en toile avec poches zippées",
+      "localSrc": "assets/img/products/p13-sac-dos-toile-800.jpg"
+    },
+    {
+      "productId": "p14",
+      "pageUrl": "https://www.etsy.com/mx/listing/1386844561/gorra-bordada-con-estrella-amarilla",
+      "imageUrl": "https://i.etsystatic.com/15627719/r/il/cfc479/4988982510/il_fullxfull.4988982510_dy7g.jpg",
+      "alt": "Casquette vert foncé brodée d’une étoile jaune",
+      "localSrc": "assets/img/products/p14-casquette-verte-brodee-800.jpg"
+    },
+    {
+      "productId": "p15",
+      "pageUrl": "https://www.celio.com/fr-fr/p/chemise-regular-col-mao-100-lin---blanc/1120419.html",
+      "imageUrl": "https://www.celio.com/dw/image/v2/BGBR_PRD/on/demandware.static/-/Sites-celio-master/default/dw239e6773/hi-res/156915-148-DAMAOLIN_WHITE-WEB3-5.jpg?q=85&sh=1234&sw=960",
+      "alt": "Chemise blanche en lin à col mao et manches longues",
+      "localSrc": "assets/img/products/p15-chemise-lin-blanche-800.jpg"
+    },
+    {
+      "productId": "p16",
+      "pageUrl": "https://www.etsy.com/listing/1238510849/ama-african-print-pencil-skirt-midi",
+      "imageUrl": "https://i.etsystatic.com/20810401/r/il/d6880d/7820216448/il_fullxfull.7820216448_kzan.jpg",
+      "alt": "Jupe crayon en wax rouge à motifs jaunes et bleus",
+      "localSrc": "assets/img/products/p16-jupe-crayon-pagne-800.jpg"
+    },
+    {
+      "productId": "p17",
+      "pageUrl": "https://www.troispar3.com/tamaris-22409-noir-vernis-p4005v6428h18",
+      "imageUrl": "https://medias.troispar3.com/chaussures-femme-hiver-2018/m2/escarpins-noir-vernis-tamaris-22409-black-patent__1120__53712_i.jpg",
+      "alt": "Escarpins noirs vernis à talon fin",
+      "localSrc": "assets/img/products/p17-escarpins-noirs-vernis-800.jpg"
+    },
+    {
+      "productId": "p18",
+      "pageUrl": "https://www.etsy.com/listing/4301494531/purple-velvet-clutch-gold-beaded-bag",
+      "imageUrl": "https://i.etsystatic.com/33146744/r/il/1b8c24/6890495507/il_fullxfull.6890495507_7s2x.jpg",
+      "alt": "Pochette de soirée en velours violet ornée de perles dorées",
+      "localSrc": "assets/img/products/p18-pochette-perlee-800.jpg"
+    },
+    {
+      "productId": "p19",
+      "pageUrl": "https://house-of-hats.com/collections/most-exclusive-pieces",
+      "imageUrl": "https://house-of-hats.com/cdn/shop/files/Sc1acc2faa78a496a98e6a42f318093be2.webp?v=1752691654&width=533",
+      "alt": "Chapeau en paille claire à larges bords et ruban noir",
+      "localSrc": "assets/img/products/p19-chapeau-paille-800.jpg"
+    },
+    {
+      "productId": "p20",
+      "pageUrl": "https://www.mytheresa.com/us/en/kids/patachou-ruffled-tiered-cotton-dress-pink-p01019396",
+      "imageUrl": "https://www.mytheresa.com/media/1094/1238/100/2f/P01019396.jpg",
+      "alt": "Robe enfant rose en coton à volants superposés",
+      "localSrc": "assets/img/products/p20-robe-fillette-volants-800.jpg"
+    },
+    {
+      "productId": "p21",
+      "pageUrl": "https://diadorapolska.com.pl/obuwie-dla-dzieci",
+      "imageUrl": "https://diadorapolska.com.pl/hpeciai/d3112a3c28ea81e792639a0f2ec94a96/pol_pm_Sneakersy-dzieciece-DIADORA-BONNY-S-TD-33198_2.webp",
+      "alt": "Baskets enfant bleues à détails jaunes et fermeture à scratch",
+      "localSrc": "assets/img/products/p21-baskets-running-enfant-800.jpg"
+    },
+    {
+      "productId": "p22",
+      "pageUrl": "https://pause-montres.fr/products/charlie-paris-sully-35-quartz-acier",
+      "imageUrl": "https://pause-montres.fr/cdn/shop/files/SULLY35-QUARTZ-ACIER-charlieparis-pause-montres-toulouse-france-1.webp?v=1740566024",
+      "alt": "Montre analogique à cadran blanc et bracelet en cuir marron",
+      "localSrc": "assets/img/products/p22-montre-analogique-cuir-800.jpg"
+    },
+    {
+      "productId": "p23",
+      "pageUrl": "https://bubakaddy.com/products/short-sleeve-t-shirts-1",
+      "imageUrl": "https://bubakaddy.com/cdn/shop/files/Mbama_black_men.png?v=1780085706&width=1024",
+      "alt": "Photo illustrative : t-shirt noir à motif africain, inscription Mboa non représentée",
+      "note": "Photo illustrative d’un t-shirt graphique noir. Aucun visuel portant exactement l’inscription « Mboa » n’a été trouvé.",
+      "localSrc": "assets/img/products/p23-t-shirt-graphique-mboa-800.jpg"
+    },
+    {
+      "productId": "p24",
+      "pageUrl": "https://www.thredup.com/product/women-cotton-cynthia-rowley-tjx-ivory-short-sleeve-top/186856292",
+      "imageUrl": "https://cf-assets-thredup.thredup.com/assets/676698612/xlarge.jpg",
+      "alt": "Top crème en dentelle florale doublée à manches courtes",
+      "localSrc": "assets/img/products/p24-top-dentelle-creme-800.jpg"
+    }
+  ]
+}

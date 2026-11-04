@@ -12,14 +12,8 @@
     "city": "Douala",
     "images": [
       {
-        "src": "assets/img/products/p01-a-800.jpg",
-        "alt": "Robe en pagne wax évasée orange à motifs ronds bleus, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p01-b-800.jpg",
-        "alt": "Robe en pagne wax évasée orange à motifs ronds bleus, vue de détail",
+        "src": "assets/img/products/p01-robe-pagne-wax-evasee-800.jpg",
+        "alt": "Robe évasée en pagne wax orange et bleu portée par un mannequin",
         "width": 800,
         "height": 1000
       }
@@ -41,20 +35,14 @@
     "city": "Douala",
     "images": [
       {
-        "src": "assets/img/products/p02-a-800.jpg",
-        "alt": "Kaba ngondo brodé jaune à motifs verts, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p02-b-800.jpg",
-        "alt": "Kaba ngondo brodé jaune à motifs verts, vue de détail",
+        "src": "assets/img/products/p02-kaba-ngondo-brode-800.jpg",
+        "alt": "Kaba ngondo jaune ample avec broderies et coiffe assortie",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s1",
-    "rating": 5.0,
+    "rating": 5,
     "createdAt": "2026-10-15"
   },
   {
@@ -70,20 +58,14 @@
     "city": "Bamenda",
     "images": [
       {
-        "src": "assets/img/products/p03-a-800.jpg",
-        "alt": "Chemise en tissu toghu noire brodée rouge et or, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p03-b-800.jpg",
-        "alt": "Chemise en tissu toghu noire brodée rouge et or, vue de détail",
+        "src": "assets/img/products/p03-chemise-toghu-homme-800.jpg",
+        "alt": "Tenue traditionnelle toghu noire brodée de motifs rouges et jaunes",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s6",
-    "rating": 5.0,
+    "rating": 5,
     "createdAt": "2026-10-30"
   },
   {
@@ -99,20 +81,14 @@
     "city": "Yaoundé",
     "images": [
       {
-        "src": "assets/img/products/p04-a-800.jpg",
-        "alt": "Jean droit brut bleu brut, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p04-b-800.jpg",
-        "alt": "Jean droit brut bleu brut, vue de détail",
+        "src": "assets/img/products/p04-jean-droit-brut-800.jpg",
+        "alt": "Jean droit en denim bleu brut",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s2",
-    "rating": 4.0,
+    "rating": 4,
     "createdAt": "2026-09-22"
   },
   {
@@ -128,14 +104,8 @@
     "city": "Bafoussam",
     "images": [
       {
-        "src": "assets/img/products/p05-a-800.jpg",
-        "alt": "Baskets montantes en cuir blanc blanches à détails verts, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p05-b-800.jpg",
-        "alt": "Baskets montantes en cuir blanc blanches à détails verts, vue de détail",
+        "src": "assets/img/products/p05-baskets-montantes-cuir-blanc-800.jpg",
+        "alt": "Baskets montantes en cuir blanc à lacets",
         "width": 800,
         "height": 1000
       }
@@ -157,20 +127,14 @@
     "city": "Yaoundé",
     "images": [
       {
-        "src": "assets/img/products/p06-a-800.jpg",
-        "alt": "Sac à main en cuir camel camel, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p06-b-800.jpg",
-        "alt": "Sac à main en cuir camel camel, vue de détail",
+        "src": "assets/img/products/p06-sac-main-cuir-camel-800.jpg",
+        "alt": "Sac à main camel à deux anses et bandoulière",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s2",
-    "rating": 4.0,
+    "rating": 4,
     "createdAt": "2026-10-08"
   },
   {
@@ -186,14 +150,8 @@
     "city": "Bamenda",
     "images": [
       {
-        "src": "assets/img/products/p07-a-800.jpg",
-        "alt": "Lunettes de soleil rétro à monture écaille, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p07-b-800.jpg",
-        "alt": "Lunettes de soleil rétro à monture écaille, vue de détail",
+        "src": "assets/img/products/p07-lunettes-soleil-retro-800.jpg",
+        "alt": "Lunettes de soleil rondes à monture écaille",
         "width": 800,
         "height": 1000
       }
@@ -215,20 +173,14 @@
     "city": "Limbé",
     "images": [
       {
-        "src": "assets/img/products/p08-a-800.jpg",
-        "alt": "Ensemble enfant en wax vert à motifs jaunes, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p08-b-800.jpg",
-        "alt": "Ensemble enfant en wax vert à motifs jaunes, vue de détail",
+        "src": "assets/img/products/p08-ensemble-enfant-wax-800.jpg",
+        "alt": "Ensemble enfant avec t-shirt blanc à empiècements wax et short en wax bleu et jaune",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s5",
-    "rating": 5.0,
+    "rating": 5,
     "createdAt": "2026-10-20"
   },
   {
@@ -244,14 +196,8 @@
     "city": "Yaoundé",
     "images": [
       {
-        "src": "assets/img/products/p09-a-800.jpg",
-        "alt": "Veste en jean vintage bleu délavé, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p09-b-800.jpg",
-        "alt": "Veste en jean vintage bleu délavé, vue de détail",
+        "src": "assets/img/products/p09-veste-jean-vintage-800.jpg",
+        "alt": "Veste en jean bleu délavé à boutons métalliques",
         "width": 800,
         "height": 1000
       }
@@ -273,20 +219,14 @@
     "city": "Garoua",
     "images": [
       {
-        "src": "assets/img/products/p10-a-800.jpg",
-        "alt": "Robe longue en lin beige naturel, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p10-b-800.jpg",
-        "alt": "Robe longue en lin beige naturel, vue de détail",
+        "src": "assets/img/products/p10-robe-longue-lin-800.jpg",
+        "alt": "Robe longue beige en lin à fines bretelles",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s4",
-    "rating": 5.0,
+    "rating": 5,
     "createdAt": "2026-10-11"
   },
   {
@@ -302,20 +242,14 @@
     "city": "Garoua",
     "images": [
       {
-        "src": "assets/img/products/p11-a-800.jpg",
-        "alt": "Boubou brodé homme blanc cassé brodé or, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p11-b-800.jpg",
-        "alt": "Boubou brodé homme blanc cassé brodé or, vue de détail",
+        "src": "assets/img/products/p11-boubou-brode-homme-800.jpg",
+        "alt": "Boubou blanc avec broderies dorées sur le devant",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s4",
-    "rating": 5.0,
+    "rating": 5,
     "createdAt": "2026-10-04"
   },
   {
@@ -331,14 +265,8 @@
     "city": "Garoua",
     "images": [
       {
-        "src": "assets/img/products/p12-a-800.jpg",
-        "alt": "Sandales en cuir tressé marron, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p12-b-800.jpg",
-        "alt": "Sandales en cuir tressé marron, vue de détail",
+        "src": "assets/img/products/p12-sandales-cuir-tresse-800.jpg",
+        "alt": "Sandales plates marron à brides en cuir tressé",
         "width": 800,
         "height": 1000
       }
@@ -360,20 +288,14 @@
     "city": "Bafoussam",
     "images": [
       {
-        "src": "assets/img/products/p13-a-800.jpg",
-        "alt": "Sac à dos en toile kaki, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p13-b-800.jpg",
-        "alt": "Sac à dos en toile kaki, vue de détail",
+        "src": "assets/img/products/p13-sac-dos-toile-800.jpg",
+        "alt": "Sac à dos kaki en toile avec poches zippées",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s3",
-    "rating": 3.0,
+    "rating": 3,
     "createdAt": "2026-08-27"
   },
   {
@@ -389,20 +311,14 @@
     "city": "Bafoussam",
     "images": [
       {
-        "src": "assets/img/products/p14-a-800.jpg",
-        "alt": "Casquette verte brodée verte à étoile jaune, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p14-b-800.jpg",
-        "alt": "Casquette verte brodée verte à étoile jaune, vue de détail",
+        "src": "assets/img/products/p14-casquette-verte-brodee-800.jpg",
+        "alt": "Casquette vert foncé brodée d’une étoile jaune",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s3",
-    "rating": 4.0,
+    "rating": 4,
     "createdAt": "2026-10-18"
   },
   {
@@ -418,14 +334,8 @@
     "city": "Bamenda",
     "images": [
       {
-        "src": "assets/img/products/p15-a-800.jpg",
-        "alt": "Chemise en lin blanche blanche, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p15-b-800.jpg",
-        "alt": "Chemise en lin blanche blanche, vue de détail",
+        "src": "assets/img/products/p15-chemise-lin-blanche-800.jpg",
+        "alt": "Chemise blanche en lin à col mao et manches longues",
         "width": 800,
         "height": 1000
       }
@@ -447,14 +357,8 @@
     "city": "Douala",
     "images": [
       {
-        "src": "assets/img/products/p16-a-800.jpg",
-        "alt": "Jupe crayon en pagne bordeaux à motifs jaunes, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p16-b-800.jpg",
-        "alt": "Jupe crayon en pagne bordeaux à motifs jaunes, vue de détail",
+        "src": "assets/img/products/p16-jupe-crayon-pagne-800.jpg",
+        "alt": "Jupe crayon en wax rouge à motifs jaunes et bleus",
         "width": 800,
         "height": 1000
       }
@@ -476,20 +380,14 @@
     "city": "Yaoundé",
     "images": [
       {
-        "src": "assets/img/products/p17-a-800.jpg",
-        "alt": "Escarpins noirs vernis noirs vernis, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p17-b-800.jpg",
-        "alt": "Escarpins noirs vernis noirs vernis, vue de détail",
+        "src": "assets/img/products/p17-escarpins-noirs-vernis-800.jpg",
+        "alt": "Escarpins noirs vernis à talon fin",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s2",
-    "rating": 4.0,
+    "rating": 4,
     "createdAt": "2026-09-12"
   },
   {
@@ -505,14 +403,8 @@
     "city": "Garoua",
     "images": [
       {
-        "src": "assets/img/products/p18-a-800.jpg",
-        "alt": "Pochette perlée violette perlée or, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p18-b-800.jpg",
-        "alt": "Pochette perlée violette perlée or, vue de détail",
+        "src": "assets/img/products/p18-pochette-perlee-800.jpg",
+        "alt": "Pochette de soirée en velours violet ornée de perles dorées",
         "width": 800,
         "height": 1000
       }
@@ -534,14 +426,8 @@
     "city": "Limbé",
     "images": [
       {
-        "src": "assets/img/products/p19-a-800.jpg",
-        "alt": "Chapeau de paille en paille claire, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p19-b-800.jpg",
-        "alt": "Chapeau de paille en paille claire, vue de détail",
+        "src": "assets/img/products/p19-chapeau-paille-800.jpg",
+        "alt": "Chapeau en paille claire à larges bords et ruban noir",
         "width": 800,
         "height": 1000
       }
@@ -563,20 +449,14 @@
     "city": "Limbé",
     "images": [
       {
-        "src": "assets/img/products/p20-a-800.jpg",
-        "alt": "Robe fillette à volants rose à pois blancs, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p20-b-800.jpg",
-        "alt": "Robe fillette à volants rose à pois blancs, vue de détail",
+        "src": "assets/img/products/p20-robe-fillette-volants-800.jpg",
+        "alt": "Robe enfant rose en coton à volants superposés",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s5",
-    "rating": 4.0,
+    "rating": 4,
     "createdAt": "2026-10-13"
   },
   {
@@ -592,20 +472,14 @@
     "city": "Limbé",
     "images": [
       {
-        "src": "assets/img/products/p21-a-800.jpg",
-        "alt": "Baskets running enfant bleues à détails jaunes, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p21-b-800.jpg",
-        "alt": "Baskets running enfant bleues à détails jaunes, vue de détail",
+        "src": "assets/img/products/p21-baskets-running-enfant-800.jpg",
+        "alt": "Baskets enfant bleues à détails jaunes et fermeture à scratch",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s5",
-    "rating": 4.0,
+    "rating": 4,
     "createdAt": "2026-08-19"
   },
   {
@@ -621,20 +495,14 @@
     "city": "Bamenda",
     "images": [
       {
-        "src": "assets/img/products/p22-a-800.jpg",
-        "alt": "Montre analogique bracelet cuir argentée à bracelet marron, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p22-b-800.jpg",
-        "alt": "Montre analogique bracelet cuir argentée à bracelet marron, vue de détail",
+        "src": "assets/img/products/p22-montre-analogique-cuir-800.jpg",
+        "alt": "Montre analogique à cadran blanc et bracelet en cuir marron",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s6",
-    "rating": 3.0,
+    "rating": 3,
     "createdAt": "2026-10-06"
   },
   {
@@ -650,14 +518,8 @@
     "city": "Bafoussam",
     "images": [
       {
-        "src": "assets/img/products/p23-a-800.jpg",
-        "alt": "T-shirt graphique « Mboa » noir, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p23-b-800.jpg",
-        "alt": "T-shirt graphique « Mboa » noir, vue de détail",
+        "src": "assets/img/products/p23-t-shirt-graphique-mboa-800.jpg",
+        "alt": "Photo illustrative : t-shirt noir à motif africain, inscription Mboa non représentée",
         "width": 800,
         "height": 1000
       }
@@ -679,20 +541,14 @@
     "city": "Garoua",
     "images": [
       {
-        "src": "assets/img/products/p24-a-800.jpg",
-        "alt": "Top en dentelle crème crème en dentelle, vue d'ensemble",
-        "width": 800,
-        "height": 1000
-      },
-      {
-        "src": "assets/img/products/p24-b-800.jpg",
-        "alt": "Top en dentelle crème crème en dentelle, vue de détail",
+        "src": "assets/img/products/p24-top-dentelle-creme-800.jpg",
+        "alt": "Top crème en dentelle florale doublée à manches courtes",
         "width": 800,
         "height": 1000
       }
     ],
     "sellerId": "s4",
-    "rating": 5.0,
+    "rating": 5,
     "createdAt": "2026-11-01"
   }
 ]
