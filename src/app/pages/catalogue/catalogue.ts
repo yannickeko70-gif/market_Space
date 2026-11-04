@@ -168,7 +168,7 @@ export class CataloguePage {
       case 'prix-desc':
         return list.sort((a, b) => b.price - a.price || byRecent(a, b));
       case 'note':
-        return list.sort((a, b) => b.rating - a.rating || byRecent(a, b));
+        return list.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || byRecent(a, b));
       default:
         return list.sort(byRecent);
     }
