@@ -5,14 +5,13 @@ import { DataService } from '../../services/data.service';
 import { SeoService } from '../../services/seo.service';
 import { formatDate } from '../../utils/format';
 import { IconComponent } from '../../components/icon/icon';
-import { PictureComponent } from '../../components/picture/picture';
 import { ProductCardComponent } from '../../components/product-card/product-card';
 import { RatingComponent } from '../../components/rating/rating';
 import { NotFoundPage } from '../not-found/not-found';
 
 @Component({
   selector: 'app-seller-detail-page',
-  imports: [RouterLink, IconComponent, PictureComponent, ProductCardComponent, RatingComponent, NotFoundPage],
+  imports: [RouterLink, IconComponent, ProductCardComponent, RatingComponent, NotFoundPage],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     @if (seller(); as s) {
@@ -30,13 +29,13 @@ import { NotFoundPage } from '../not-found/not-found';
 
         <header class="seller-hero">
           <span class="avatar avatar-lg">
-            <app-picture
-              [src]="s.avatar.src"
+            <img
+              [src]="'/' + s.avatar.src"
               [alt]="s.avatar.alt"
               [width]="s.avatar.width"
               [height]="s.avatar.height"
-              [widths]="[96, 192]"
-              sizes="6rem"
+              loading="lazy"
+              decoding="async"
             />
           </span>
           <div class="seller-hero-body">

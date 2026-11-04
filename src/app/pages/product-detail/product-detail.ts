@@ -134,13 +134,13 @@ import { NotFoundPage } from '../not-found/not-found';
             @if (seller; as s) {
               <aside class="seller-box" aria-labelledby="seller-box-title">
                 <span class="avatar">
-                  <app-picture
-                    [src]="s.avatar.src"
+                  <img
+                    [src]="'/' + s.avatar.src"
                     [alt]="s.avatar.alt"
                     [width]="s.avatar.width"
                     [height]="s.avatar.height"
-                    [widths]="[96, 192]"
-                    sizes="4rem"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </span>
                 <div>

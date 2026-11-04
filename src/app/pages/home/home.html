@@ -98,13 +98,13 @@
         <li>
           <article class="seller-card">
             <span class="avatar">
-              <app-picture
-                [src]="s.avatar.src"
+              <img
+                [src]="'/' + s.avatar.src"
                 [alt]="s.avatar.alt"
                 [width]="96"
                 [height]="96"
-                [widths]="[96, 192]"
-                sizes="64px"
+                loading="lazy"
+                decoding="async"
               />
             </span>
             <div>
